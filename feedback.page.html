@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feedback Form</title>
+         <body>
+        <header>
+            <h1>Dynamic Technology</h1>
+            <nav>
+                <ul>
+                    
+                    <li> <a href="about.html"style="color: black">About us | </a></li>
+                    <li> <a href="Contactus.html"style="color: black"> Contacts Us | </a></li>
+                    <li><a href="index.html"style="color: black">Home |</a></li>
+                    <li> <a href="Accesories2.html"style="color: black">Accessories  |</a></li>
+                    <li> <a href="Latestarrivals2.html"style="color: black;">Latest Arrivals | </a></li>
+
+                </ul>
+            </nav>
+            </body> 
+           <style>       
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e2dede;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #f4f4f4;
+    }
+    nav ul li{ 
+    display: inline;
+    margin-right: 20px;
+    }
+    nav ul li a{
+color: rgb(255, 255, 255);
+text-decoration: none;
+    }
+    /* Header styles */
+header{
+    background-color:rgb(176, 164, 164); ;
+    color:black;
+    padding: 0%;
+    text-align: center;
+}
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Feedback Form</h2>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name">
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email">
+
+      <label for="rating">Rating</label>
+      <select id="rating" name="rating">
+        <option value="">Select rating</option>
+        <option value="5">Excellent (5)</option>
+        <option value="4">Very Good (4)</option>
+        <option value="3">Good (3)</option>
+        <option value="2">Fair (2)</option>
+        <option value="1">Poor (1)</option>
+      </select>
+
+      <label for="comments">Comments</label>
+      <textarea id="comments" name="comments" rows="4" placeholder="Your feedback..."></textarea>
+
+      <button type="submit">Submit Feedback</button>
+    </form>
+  </div>
+
+</body>
+</html>
+

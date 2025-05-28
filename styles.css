@@ -1,0 +1,124 @@
+/* General styles */
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(242, 233, 233);
+
+}
+/* Header styles */
+header{
+    background-color: rgb(15, 15, 15);
+    color: white;
+    padding: 0%;
+    text-align: center;
+}
+
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+    color: rgb(213, 218, 224);
+}
+
+.inventory-grid{
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: rgb(242, 223, 223);
+}
+.phone{   
+    background: rgb(248, 245, 245);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(210, 11, 11, 0.1); 
+    text-align: center;
+}
+.phone img{
+    width: 50%;
+    border-radius: 80px; 
+}
+a{
+    text-decoration: none;
+
+}
+.inventory-grid a:hover{
+        border: #222 solid thin;
+        border-radius: 15px;
+        background-color: rgb(14, 13, 13);
+        box-shadow: 0 0 10px;
+
+  }
+/*promotion of the day */
+.promotion{
+    text-align: center;
+    background-color: rgb(176, 164, 164);
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 10px;
+    width: 95%;
+    box-shadow: 0 0 10px;
+}
+.promotion h2{
+    color:rgb(7, 3, 3);
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.promo-phone{
+    background: rgb(242, 233, 233);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 20px;
+    width: 900px;
+}
+.promo-phone img{
+    width: 600px;
+    border-radius: 15px;
+
+}
+.viewmore-btn{
+    background-color: rgb(14, 14, 17);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    text-decoration: none;
+}
+.viewmore-btn:hover:hover{
+    background-color: rgb(180, 14, 122);
+}
+footer{
+    text-align: center;
+    background-color: rgb(15, 13, 13);
+    padding: 10px 20px;
+
+}
+ 
+footer{
+width: 100%;    
+height:auto;
+background-color: rgb(176, 164, 164);;
+text-align: center;
+display: flow-root;
+flex-direction: column;
+align-items: center;
+border-radius: 20 20px 20px;
+        padding: 20px;
+        box-sizing: border-box;
+
+      }
+
+  video{
+    width: 50%;
+    height: auto;
+    background-color: beige;
+  }
+    
+
+ 
+
